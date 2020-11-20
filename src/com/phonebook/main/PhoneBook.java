@@ -119,7 +119,7 @@ public class PhoneBook {
 
 
         } catch (SQLIntegrityConstraintViolationException e) {
-            System.out.println("Duplicate PhoneNumber or name or file");
+            System.out.println("Duplicate PhoneNumber or name ");
         } catch (Exception e) {
             e.printStackTrace();
         }
